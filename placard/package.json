@@ -1,0 +1,27 @@
+{
+  "name": "placard",
+  "displayName": "Placard",
+  "description": "A Beautiful Dark Color Theme For VSCode Insider",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "publisher": "Milad Fathy",
+  "author": {
+    "name": "Miladfathy",
+    "url": "https://github.com/miladfathy",
+    "email": "miladfathylangeriz@gmail.com"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Placard",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Placard-color-theme.json"
+      }
+    ]
+  }
+}
